@@ -7,14 +7,6 @@
 		<string>j</string>
 		<string>J</string>
 	</array>
-	<key>foldingStartMarker</key>
-	<string>(?x)
-		 /\*\*(?!\*)
-		|^(?![^{]*?//|[^{]*?/\*(?!.*?\*/.*?\{)).*?\{\s*($|//|/\*(?!.*?\*/.*\S))
-		|^@(interface|protocol|implementation)\b
-	</string>
-	<key>foldingStopMarker</key>
-	<string>(?&lt;!\*)\*\*/|^\s*\}|^@end\b</string>
 	<key>name</key>
 	<string>Objective-J</string>
 	<key>patterns</key>
