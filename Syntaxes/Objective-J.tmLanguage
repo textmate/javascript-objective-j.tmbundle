@@ -337,16 +337,24 @@
 		<dict>
 			<key>begin</key>
 			<string>\[</string>
-			<key>captures</key>
+			<key>beginCaptures</key>
 			<dict>
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.section.scope.js.objj</string>
+					<string>punctuation.section.scope.begin.js.objj</string>
 				</dict>
 			</dict>
 			<key>end</key>
 			<string>\]</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.section.scope.end.js.objj</string>
+				</dict>
+			</dict>
 			<key>name</key>
 			<string>meta.bracketed.js.objj</string>
 			<key>patterns</key>
